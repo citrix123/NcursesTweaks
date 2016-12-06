@@ -12,10 +12,12 @@ void readFile(){
   if(fp == NULL)
   printf("Unable to file Headings.txt");
 
+  attron(A_STANDOUT);
   while ((read = getline(&line, &len, fp)) != -1) {
     line[read-1]=0x0;
     printw("%s \t", line);
   }
+  attron(A_NORMAL);
   fclose(fp);
 
 }
