@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<MemoryWatcher>
+  <headings>Attribute</headings>
+  <headings>Total</headings>
+  <headings>Used</headings>
+  <headings>Available</headings>
+
+  <titles>Video Memory</titles>
+  <titles>Remote Memory</titles>
+  <titles>System Memory</titles>
+</MemoryWatcher>
